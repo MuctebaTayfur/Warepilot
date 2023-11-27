@@ -1,0 +1,33 @@
+[
+  {
+    "productId": 1,
+    "productName": "Hammer",
+    "category": "GDN-0011",
+    "releaseDate": "March 19, 2021",
+    "description": "Leaf rake with 48-inch wooden handle.",
+    "price": 19.95,
+    "rating": 3.2,
+    "productUrl": "assets/images/hammer.png"
+  },
+  {
+    "productId": 2,
+    "productName": "garden-cart",
+    "category": "GDN-0022",
+    "releaseDate": "March 19, 2023",
+    "description": "Leaf rake with 48-inch wooden handle.",
+    "price": 33.45,
+    "rating": 4,
+    "productUrl": "assets/images/garden_cart.png"
+  },
+  {
+    "productId": 3,
+    "productName": "saw",
+    "category": "GDN-0022",
+    "releaseDate": "March 19, 2023",
+    "description": "Leaf rake with 48-inch wooden handle.",
+    "price": 25.56,
+    "rating": 5,
+    "productUrl": "assets/images/saw.png"
+  }
+ 
+]

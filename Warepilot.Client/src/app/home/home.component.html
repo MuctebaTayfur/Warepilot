@@ -1,0 +1,28 @@
+<mat-toolbar>
+    <mat-toolbar-row>
+        <div style="display: block;">
+            <button routerLink="" style="border: 0ch; background-color: antiquewhite;">
+                <span>MICROTHINGS</span>
+            </button>
+
+        </div>
+        <div style="padding-left: 30px; ">
+            <a mat-button routerLink="/products" routerLinkActive="active-router-button">
+                Products
+            </a>
+        </div>
+        <div style="padding-left: 30px; ">
+            <a mat-button routerLink="/customers" routerLinkActive="active-router-button">
+                Customers
+            </a>
+        </div>
+        
+    </mat-toolbar-row>
+</mat-toolbar>
+
+<div class="content">
+    <router-outlet></router-outlet>
+</div>
+<div class="footer">
+    <span> Microthings All Rigth Reserved 2022</span>
+</div>

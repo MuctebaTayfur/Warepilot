@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Warepilot.Domain", "Warepilot.Domain\Warepilot.Domain.csproj", "{1AC885E1-85C0-4FAD-A649-DDC2C2F04091}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Warepilot.EntityFramework", "Warepilot.EntityFramework\Warepilot.EntityFramework.csproj", "{F75D6595-8F65-4265-AD26-01D963340DC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AC885E1-85C0-4FAD-A649-DDC2C2F04091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AC885E1-85C0-4FAD-A649-DDC2C2F04091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AC885E1-85C0-4FAD-A649-DDC2C2F04091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AC885E1-85C0-4FAD-A649-DDC2C2F04091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F75D6595-8F65-4265-AD26-01D963340DC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F75D6595-8F65-4265-AD26-01D963340DC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F75D6595-8F65-4265-AD26-01D963340DC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F75D6595-8F65-4265-AD26-01D963340DC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E468480E-2416-4FED-8C69-960ADFB0C8E4}
+	EndGlobalSection
+EndGlobal

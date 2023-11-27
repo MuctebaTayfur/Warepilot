@@ -1,0 +1,58 @@
+<form (ngSubmit)="save()">
+    <fieldset class="customer-form" [formGroup]="customerForm">
+        <mat-form-field appearance="fill">
+            <mat-label>First Name</mat-label>
+            <input matInput formControlName="firstName">
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Last Name</mat-label>
+            <input matInput formControlName="lastName">
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Middle Name</mat-label>
+            <input matInput formControlName="middleName">
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Called Name</mat-label>
+            <input matInput formControlName="calledName">
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Phone Number</mat-label>
+            <input matInput formControlName="phoneNumber">
+            <span *ngIf="customerForm.get('phoneNumber')?.errors" style="font-size: x-small;">required</span>
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Email</mat-label>
+            <input matInput formControlName="email">
+            <span style="font-size: x-small;">{{emailMessage}}</span>
+        </mat-form-field>
+
+        <mat-checkbox class="example-margin" formControlName="notifications">Notifications</mat-checkbox>
+        <mat-checkbox class="example-margin" formControlName="catalog">Send me catalog</mat-checkbox>
+
+        <div *ngIf="customerForm.get('catalog')?.value" class="customer-form-addresses">
+            <mat-radio-group formControlName="addressType" class="customer-form-addresses-type" aria-label="Select an option">
+                <mat-label>Address Type</mat-label>
+                <mat-radio-button value="home" >Home</mat-radio-button>
+                <mat-radio-button value="work" >Work</mat-radio-button>
+                <mat-radio-button value="other" >Other</mat-radio-button>
+            </mat-radio-group>
+
+            <mat-form-field style="padding-top: 20px;" appearance="fill">
+                <mat-label>Streed Addres 1</mat-label>
+                <input matInput formControlName="streetAddress1">
+            </mat-form-field>
+            
+        </div>
+
+
+
+    </fieldset>
+
+    <div class="save">
+        <button mat-button class="button" type="submit" (click)="checkFormValidations()">
+            <span>Save</span>
+        </button>
+    </div>
+
+</form>

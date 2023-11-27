@@ -1,0 +1,43 @@
+.customer-form {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px
+}
+
+.customer-form>* {
+  //???
+  flex: 45%;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  align-self: center;
+}
+
+.save {
+background-color: rgb(52, 110, 28);
+width: 100px;
+border-radius: 5px;
+position: relative ;
+left: 43% ;
+}
+
+.button{
+  width: 100%;
+}
+
+.save:hover{
+  background-color: rgb(98, 242, 37);
+  }
+.button:hover{
+ 
+  color: black;
+}
+.customer-form-addresses{
+  display: flex;
+  flex-direction: column;
+}
+.customer-form-addresses-type{
+  display: flex;
+  justify-content: space-between;
+  max-width: 450px;
+  margin-top: 20px;
+
+}

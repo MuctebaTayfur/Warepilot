@@ -1,0 +1,13 @@
+<mat-drawer-container class="customer-container" style="width: 100%;">
+    <mat-drawer class="mat-drawer" mode="side" opened>
+        <span>
+            <a style="width: 100%;" mat-button routerLink="/customers/add" routerLinkActive="active-router-button">
+               <span>Add Customer</span> 
+            </a>
+        </span>
+    </mat-drawer>
+    <mat-drawer-content class="mat-drawer-content">
+        <router-outlet></router-outlet>
+    </mat-drawer-content>
+  </mat-drawer-container>
+  
